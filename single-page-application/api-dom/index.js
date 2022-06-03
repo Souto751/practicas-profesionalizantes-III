@@ -352,13 +352,13 @@ const clickSign = (s) => {
 
 const doOperation = () => {
     if(sign == "-"){
-        total = parseFloat(first_number) - parseFloat(second_number);
+        added_sign == true ? total = parseFloat(total) - parseFloat(second_number) : total = parseFloat(first_number) - parseFloat(second_number);
     } else if(sign == "+"){
-        total = parseFloat(first_number) + parseFloat(second_number);
+        added_sign == true ? total = parseFloat(total) + parseFloat(second_number) : total = parseFloat(first_number) + parseFloat(second_number);
     } else if(sign == "*"){
-        total = (parseFloat(first_number) * parseFloat(second_number)).toFixed(2);
+        added_sign == true ? total = parseFloat(total) * parseFloat(second_number) : total = (parseFloat(first_number) * parseFloat(second_number)).toFixed(2);
     } else if(sign == "/"){
-        total = parseFloat(first_number) / parseFloat(second_number);
+        added_sign == true ? total = parseFloat(total) / parseFloat(second_number) : total = parseFloat(first_number) / parseFloat(second_number);
     }
     added_sign = false;
     input.value = total;
