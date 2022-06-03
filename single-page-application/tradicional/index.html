@@ -16,64 +16,65 @@
         </tr>
         <tr>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">7</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(7)">7</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">8</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(8)">8</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">9</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(9)">9</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-sign"><button class="btn btn-sign">+</button></div>
+                <div class="div-btn div-btn-sign"><button class="btn btn-sign" onclick="clickSign('+')">+</button></div>
             </td>
         </tr>
         <tr>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">4</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(4)">4</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">5</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(5)">5</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">6</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(6)">6</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-sign"><button class="btn btn-sign">-</button></div>
+                <div class="div-btn div-btn-sign"><button class="btn btn-sign" onclick="clickSign('-')">-</button></div>
             </td>
         </tr>
         <tr>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">1</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(1)">1</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">2</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(2)">2</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">3</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(3)">3</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-sign"><button class="btn btn-sign">*</button></div>
+                <div class="div-btn div-btn-sign"><button class="btn btn-sign" onclick="clickSign('*')">*</button></div>
             </td>
         </tr>
         <tr>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">0</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber(0)">0</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-number"><button class="btn btn-number">.</button></div>
+                <div class="div-btn div-btn-number"><button class="btn btn-number" onclick="modifyNumber('.')">.</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-equal"><button class="btn btn-equal">=</button></div>
+                <div class="div-btn div-btn-equal"><button class="btn btn-equal" onclick="doOperation()">=</button></div>
             </td>
             <td>
-                <div class="div-btn div-btn-sign"><button class="btn btn-sign">/</button></div>
+                <div class="div-btn div-btn-sign"><button class="btn btn-sign" onclick="clickSign('/')">/</button></div>
             </td>
         </tr>
         <tr>
-            <td colspan="4"><div class="div-btn div-btn-delete"><button class="btn btn-delete">Borrar</button></div></td>
+            <td colspan="4"><div class="div-btn div-btn-delete"><button class="btn btn-delete" onclick="deleteOperation()">Borrar</button></div></td>
         </tr>
     </table>
 </body>
+<script src="./index.js"></script>
 
 </html>
