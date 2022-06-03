@@ -34,6 +34,9 @@ const doOperation = () => {
     }
     added_sign = false;
     input.value = total;
+    first_number = "";
+    second_number = "";
+    sign = "";
 }
 
 const deleteOperation = () => {
