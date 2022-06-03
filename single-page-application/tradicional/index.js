@@ -17,6 +17,9 @@ const modifyNumber = (value) => {
 }
 
 const clickSign = (s) => {
+    if(added_sign == true){
+        doOperation();
+    }
     added_sign = true;
     sign = s;
     input.value = sign;
