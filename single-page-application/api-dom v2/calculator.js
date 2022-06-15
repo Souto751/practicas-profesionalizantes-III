@@ -1,3 +1,7 @@
+//Muy buen trabajo Agustín
+//Consulta: Utilizaste divs además de botones por algo en particular?
+//Muy buen uso del CSS
+
 function posicionarElementoEnTabla( tablaObj, nroFila, nroColumna, elemento )
 {
     //Añade el elemento recibido
@@ -33,7 +37,7 @@ class CalculatorView extends HTMLElement{
 		this.display.value = 0;
 
 		this.button1 = document.createElement("button");
-		this.button1.innerHTML = "1";
+		this.button1.innerHTML = "1"; //Se utiliza innerText
 		this.button1.classList.add("btn", "btn-number");
 
 		this.divButton1 = document.createElement("div");
@@ -336,6 +340,8 @@ class CalculatorView extends HTMLElement{
 		}
 	}
 
+	//Bien, este método no es necesario aquí pero está perfecto 
+	//como lo armaste.
 	calculate(){
 		this.display.value = this.calculator.calculate();
 	}
