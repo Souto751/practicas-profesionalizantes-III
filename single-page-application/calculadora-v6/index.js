@@ -11,5 +11,5 @@ document.getElementById("showModal").addEventListener("click", () => {
 
 document.getElementById("close-modal").addEventListener("click", () => {
     document.getElementById("modal-screen").classList.add("hide");
-    document.getElementById("modal-content").innerHTML = "";
+    document.getElementById("modal-content").remove();
 });
