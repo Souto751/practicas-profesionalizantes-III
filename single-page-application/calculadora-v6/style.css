@@ -1,0 +1,139 @@
+#table{
+    max-width: 300px;
+    
+}
+
+td{
+    padding: 3px 10px;
+    width: 40px;
+}
+
+.div-input{
+    height: 50px;
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    font-size: 40px;
+    text-align: right;
+    box-shadow: -1px -1px 4px #7f7f7f;
+    padding-right: 5px;
+    background: #fff;
+    width: calc(100% - 9px);
+    margin-bottom: 12.5px;
+}
+
+.div-btn{
+    height: 45px;
+    background: #aaa;
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px #000c;
+}
+
+.div-btn-number{
+    background: rgb(7, 101, 183);
+}
+
+.div-btn-sign{
+    background: rgb(9, 175, 9);
+}
+
+.div-btn-equal{
+    background: rgb(184, 149, 8);
+}
+
+.div-btn-delete{
+    background: rgb(151, 17, 7);
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 0 0 5px #0007;
+    cursor: pointer;
+}
+
+.btn-number{
+    background-color: rgb(9, 123, 222);
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff1;
+}
+
+.btn-number:hover{
+    background-color: rgb(7, 101, 183);
+}
+
+.btn-sign{
+    background-color: rgb(9, 222, 9);
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff6;
+}
+
+.btn-sign:hover{
+    background-color: rgb(9, 175, 9);
+}
+
+.btn-equal{
+    background-color: rgb(222, 180, 9);
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff3;
+}
+
+.btn-equal:hover{
+    background-color: rgb(184, 149, 8);
+}
+
+.btn-delete{
+    background-color: rgb(255, 52, 37);
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff1;
+    width: 100%;
+}
+
+.btn-delete:hover{
+    background-color: rgb(213, 38, 25);
+}
+
+/* MODAL STYLES */
+.modal-screen{
+    width: 100vw;
+    height: 100vh;
+    background: #0003;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body{
+    position: relative;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #0005;
+}
+
+#close-modal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    background: none;
+    border-radius: 5px;
+    border-color: #700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
