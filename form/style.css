@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary{
+    padding: 10px;
+    background: none;
+    border: 1px solid #00c;
+    border-radius: 5px;
+    color: #00c;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background: #00c;
+    color: #fff;
+}
+
+.btn-secondary{
+    padding: 10px;
+    background: none;
+    border: 1px solid #555;
+    border-radius: 5px;
+    color: #555;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background: #555;
+    color: #fff;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.form-input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+#btns-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* MODAL STYLES */
+.modal-screen{
+    width: 100vw;
+    height: 100vh;
+    background: #0007;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-body{
+    position: relative;
+    padding: 10px;
+    padding-top: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 0 5px #0005;
+}
+
+#close-modal{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    background: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
