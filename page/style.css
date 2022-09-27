@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: -apple-system, Arial, Helvetica, sans-serif;;
+}
+
+.w3-bar-block .w3-bar-item {
+  padding: 16px;
+}
+
+.w3-bar-item:hover, .w3-bar-item:active, .w3-bar-block .w3-bar-item:hover{
+  background-color: #00b19f !important;
+  color: #fff !important;
+}
+
+.selected-suboption{
+  background-color: #1b796f !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.w3-bar-block .w3-bar-item:hover ~ .w3-bar-block{
+  background-color: #00b19f !important;
+  color: #fff !important;
+}
+
+#app{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
